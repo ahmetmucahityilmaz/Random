@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Mücahit Yılmaz</title>
+    <script type="text/javascript" src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <!-- <a href="#"><i class="fas fa-user"></i></a> -->
+    <div class="side" id="side">
+        <a href="javascript:" class="kapat" onclick="kapat()">&times;</a>
+
+        <a href="index.html#banner">Ana Sayfa</a>
+        <a href="index.html#hakkimda">Hakkımda</a>
+        <a href="index.html#deneyimlerim">Deneyimlerim</a>
+        <a href="index.html#iletisim">İletisim</a>
+    </div>
+    <div id="menu">
+        <span style="font-size:32px;cursor:pointer;color:black;padding-left: 10px;" onclick="ac();"><i
+                class="fas fa-bars"></i></span>
+    </div>
+
+
+
+
+    <section id="banner">
+        <div class="container">
+            <h1>Ahmet Mücahit Yılmaz</h1>
+            <ul>
+                <li><a id="linkedin" href="https://tr.linkedin.com/in/ahmet-m%C3%BCcahit-y%C4%B1lmaz-08b9a91a1"><i
+                            class="fab fa-linkedin-in"></i></a></li>
+                <li><a id="github" href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="hakkimda">
+        <div class="container">
+            <h1>Hakkımda</h1>
+            <div class="container1">
+                
+                <img id="image" src="images/profil.jpg" alt="profile">
+                
+                  
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat placeat, facilis quod
+                        voluptate
+                        cum
+                        architecto iure molestiae porro dolore consequuntur culpa aliquam ipsa sit distinctio
+                        voluptatem.
+                        Impedit modi nobis assumenda porro aspernatur, deserunt delectus, nesciunt alias necessitatibus
+                        sapiente
+                        non eius nulla! Vitae non sint excepturi illum, aspernatur nobis ipsa sequi mollitia esse vero,
+                        autem
+                        aperiam, quidem reprehenderit numquam voluptas atque perspiciatis obcaecati odit fugiat amet id
+                        ullam
+                        ducimus reiciendis! Quas ex recusandae nobis quod doloremque tempora, repellendus natus,
+                        molestiae,
+                        maxime ab libero maiores ut corrupti eius quaerat vel similique quidem voluptas et voluptatum
+                        doloribus!
+                        Magni aliquam assumenda accusamus minus quam.</p>
+                    <form action="">
+                        <button class="button1" type="button">CV'mi Görüntüle</button>
+                        <button class="button2" type="button">İletişime Geçin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="deneyimlerim">
+        <div class="container">
+            <h1>Deneyimlerim</h1>
+            <p>Misha Yazılım (Şubat 2021)</p>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <h1>İletişim</h1>
+        <div class="container" id="icons">
+
+            <div class="box">
+
+                <h2><i class="fas fa-phone" style="cursor: pointer;"
+                        onclick="document.getElementById('sakla').style.visibility='visible'"
+                        ondblclick="document.getElementById('sakla').style.visibility='hidden'"></i></h2>
+
+                <p id="sakla" style="visibility: hidden;">0500 000 00 00</p>
+            </div>
+            <div class="box">
+
+                <h2><i class="fas fa-map-marker-alt" style="cursor: pointer;"
+                        onclick="document.getElementById('kapa').style.visibility='visible'"
+                        ondblclick="document.getElementById('kapa').style.visibility='hidden'"></i></h2>
+
+                <p id="kapa" style="visibility: hidden;">Üsküdar/İstanbul</p>
+            </div>
+            <div class="box">
+
+                <h2><i class="fas fa-envelope" style="cursor: pointer;"
+                        onclick="document.getElementById('sonla').style.visibility='visible'"
+                        ondblclick="document.getElementById('sonla').style.visibility='hidden'"></i></h2>
+
+                <p id="sonla" style="visibility: hidden;">amucahit.yilmaz@istanbulticaret.edu.tr</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=tr"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/login?lang=tr"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F%3Ftrk%3Dguest_homepage-basic_nav-header-signin"><i  class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.github.com/"><i class="fab fa-github"></i></li></a>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, minus.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
